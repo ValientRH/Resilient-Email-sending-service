@@ -15,7 +15,22 @@ Features
 
 ---
 
-## Live Demo (Cloud API)
-https://resilient-email-sending-service-shubham.onrender.com
+## 🚀 Live API (Cloud Deployed)
+
+https://resilient-email-sending-service-shubham.onrender.com/
+
+### Endpoint: /send-email
+
+Sends an email using mock providers with retry and fallback logic.
+
+#### 📤 Example Request
+
+```json
+{
+  "id": "email-001",
+  "to": "user@example.com",
+  "subject": "Hello",
+  "body": "This is a test email"
+}
 
 
